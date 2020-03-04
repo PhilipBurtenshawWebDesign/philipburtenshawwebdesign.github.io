@@ -17,7 +17,7 @@ body { max-width: 1600px; margin: 0 auto }
 
 /* Desktop */
 @media all and (min-width:768px) {
-    body {
+    body { 
        padding-left: 20%;
        padding-right: 20%
     }
@@ -118,6 +118,32 @@ p {
 /* Desktop */
 @media all and (min-width:768px) {
     p {
+       line-height: 1.6;
+       margin-bottom: 2%;
+    }
+}
+
+/* ==== BULLETS ==== */
+
+ul li, ol li {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
+}
+
+/* Mobiles */
+@media all and (max-width:767px) {
+    ul, ol { margin-left: 5% }
+    ul li, ol li {
+       line-height: 1.5;
+       margin-bottom: 5%;
+    }
+}
+ 
+/* Desktop */
+@media all and (min-width:768px) {
+    ul, ol { margin-left: 2% }
+    ul li, ol li {
        line-height: 1.6;
        margin-bottom: 2%;
     }
