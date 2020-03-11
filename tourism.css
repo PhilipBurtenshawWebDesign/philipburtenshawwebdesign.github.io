@@ -60,7 +60,6 @@ h2 {
     font-size: calc(32px + (48 - 32) * ((100vw - 320px)/(1600 - 320)));
 }
  
- 
 /* Mobiles */
 @media all and (max-width:767px) {
     h2 {
