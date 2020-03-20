@@ -1,8 +1,6 @@
 /* ==== BROWSER RESETS  ==== */
 * { padding: 0; margin: 0; border: 0; font-weight: normal; font-size: 16px }
 
-body, html { height: 100% } 
-
 body { max-width: 1600px; margin: 0 auto }
 
 /* ==== PAGE WIDTH ==== */
@@ -32,13 +30,13 @@ h1 {
     letter-spacing: -1px;
 }
 
+
 /* Mobiles */
 @media all and (max-width:767px) {
     h1 {
        line-height: 1.3;
        margin-top: 12%;
        margin-bottom: 6%;
-       color: red;
    }
 }
 
@@ -48,7 +46,6 @@ h1 {
        line-height: 1.3;
        margin-top: 12%;
        margin-bottom: 10%;
-       color: green;
    }
 }
 
@@ -57,6 +54,7 @@ h2 {
     font-weight: bold;
     font-size: calc(32px + (48 - 32) * ((100vw - 320px)/(1600 - 320)));
 }
+ 
  
 /* Mobiles */
 @media all and (max-width:767px) {
@@ -100,12 +98,15 @@ h3 {
     }
 }
 
+
+
 /* ==== PARAGRAPHS ==== */
 p {
     font-family: sans-serif;
     font-weight: normal;
     font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
 }
+ 
  
 /* Mobiles */
 @media all and (max-width:767px) {
