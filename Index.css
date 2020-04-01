@@ -3,6 +3,7 @@
 body, html { height: 100% }	
 body { max-width: 1600px; margin: 0 auto }
 img { display: block; width: 100%; height: auto }
+html { scroll-behavior: smooth }
 
 /* ==== PAGE WIDTH ==== */
 
@@ -22,14 +23,14 @@ img { display: block; width: 100%; height: auto }
     }
 }
 
-
 /* ==== HEADINGS ==== */
 
 h1 {
 	font-family: 'Playfair Display', serif;
-	font-weight: bold;
+    font-weight: bold;
+    text-align: center;
 	font-size: calc(42px + (64 - 42) * ((100vw - 320px)/(1600 - 320)));
-	letter-spacing: -1px;
+    letter-spacing: -1px;
 }
 
 /* Mobiles */
@@ -53,6 +54,7 @@ h1 {
 h2 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+    text-align:left;
     font-size: calc(32px + (48 - 32) * ((100vw - 320px)/(1600 - 320)));
 }
  
@@ -78,6 +80,7 @@ h2 {
 h3 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+    text-align: left;
     font-size: 28px;
 }
  
@@ -105,6 +108,7 @@ h3 {
 p {
    font-family: 'Lato', sans-serif;
    font-weight: normal;
+   text-align: left;
    font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
 }
 
@@ -130,6 +134,8 @@ p {
 ul li, ol li {
    font-family: 'Lato', sans-serif;
    font-weight: normal;
+   text-align: left;
+
    font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
 }
 
@@ -151,6 +157,67 @@ ul li, ol li {
    }
 }
 
+/* ==== HYPERLINKS ==== */
+
+a.fancy-link:link,
+a.fancy-link:visited,
+a.fancy-link:hover,
+a.fancy-link:active { 
+    text-decoration: none;
+    color: inherit;
+    border-bottom-style: solid;
+    border-bottom-width:2px;
+    padding-bottom: 2px;
+}
+
+a.fancy-link:link,
+a.fancy-link:visited { border-bottom-color: blue}
+
+a.fancy-link:hover,
+a.fancy-link:active { color: red; border-bottom-color: red }
+
+a.btn:link, .btn:visited, a.btn:hover, a.btn:active { 
+   text-decoration: none;
+   color: inherit;
+   border-style: solid;
+   border-width:2px;
+   padding: 12px 24px;
+   display: inline-block;
+   margin: 20px 40px 20px 0;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-family: sans-serif;
+   letter-spacing: 1px;
+   line-height:1
+}
+
+a.btn-solid:link, .btn-solid:visited {
+   border-color: black;
+   background-color: black;
+   color: #fff
+} 
+
+a.btn-solid:hover, .btn-solid:active {
+   border-color: white;
+   background-color: white;
+   color: black;
+}
+
+a.btn-ghost:link, .btn-ghost:visited {
+   border-color: black;
+   background-color: transparent;
+   color: white;
+} 
+
+a.btn-ghost:hover, .btn-ghost:active {
+   border-color: black;
+   background-color: transparent;
+   color: white;
+}
+
+a.btn-soft { border-radius: 5px }
+a.btn-round { border-radius: 25px }
+
 /* ==== TEXT BOXES ==== */
 
 .important-note-1 { 
@@ -162,7 +229,7 @@ ul li, ol li {
    background-color:#E4F5E8; 
 }
 
-.important-note-1 h3 { margin-top: 0; color: #000 }
+.important-note-1 h3 { margin-top: 0; color: #1FA441 }
 .important-note-1 p { margin-bottom: 0; color: #000  }
 
 .important-note-2 { 
