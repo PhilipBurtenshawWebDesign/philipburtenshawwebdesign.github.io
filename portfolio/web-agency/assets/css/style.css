@@ -913,7 +913,7 @@ img.image-shadow { box-shadow: 8px 10px 8px #888 }
 
 .container-footer ul.footer-links li a:hover, 
 .container-footer ul.footer-links li a:active  {
-   border-bottom-color: #fff
+   border-bottom-color: #33adff;
 }
 
 /* Footer icons */
@@ -924,7 +924,7 @@ img.image-shadow { box-shadow: 8px 10px 8px #888 }
 
 .container-footer ul.footer-icons li a:hover, 
 .container-footer ul.footer-icons li a:active  {
-   color: #fff
+   color: #33adff;
 }
 
 /* Privacy and legal link */
@@ -943,7 +943,7 @@ img.image-shadow { box-shadow: 8px 10px 8px #888 }
 
 .container-footer p a:hover, 
 .container-footer p a:active  {
-   border-bottom-color: #fff
+   border-bottom-color: #33adff;
 }
 
 a.privacy-legal {
@@ -964,7 +964,7 @@ a.privacy-legal:visited {
 
 a.privacy-legal:active,
 a.privacy-legal:hover {
-    border-bottom-color: #fff
+    border-bottom-color: #33adff;
 }
 
 /* == End footer CSS == */
