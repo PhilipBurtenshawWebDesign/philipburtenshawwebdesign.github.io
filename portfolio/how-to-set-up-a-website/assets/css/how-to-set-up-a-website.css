@@ -226,7 +226,7 @@ ul li, ol li {
     font-family: sans-serif;
     font-weight: normal;
     font-style:  italic;
-    color: #8d9093;
+    color: #fff;
     margin: 0 auto 36px auto;
     font-size: calc(20px + (32 - 20) * ((100vw - 320px)/(1600 - 320)));
 }
@@ -272,7 +272,7 @@ ul li, ol li {
 
 .container-footer ul.footer-links li a:hover, 
 .container-footer ul.footer-links li a:active  {
-   border-bottom-color: #fff
+   border-bottom-color: #33adff;
 }
 
 /* Footer icons */
@@ -283,7 +283,7 @@ ul li, ol li {
 
 .container-footer ul.footer-icons li a:hover, 
 .container-footer ul.footer-icons li a:active  {
-   color: #fff
+   color: #33adff;
 }
 
 /* Privacy and legal link */
@@ -302,7 +302,7 @@ ul li, ol li {
 
 .container-footer p a:hover, 
 .container-footer p a:active  {
-   border-bottom-color: #fff
+   border-bottom-color: #33adff;
 }
 
 a.privacy-legal {
@@ -323,7 +323,7 @@ a.privacy-legal:visited {
 
 a.privacy-legal:active,
 a.privacy-legal:hover {
-    border-bottom-color: #fff
+    border-bottom-color: #33adff;
 }
 
 /* == End footer CSS == */
