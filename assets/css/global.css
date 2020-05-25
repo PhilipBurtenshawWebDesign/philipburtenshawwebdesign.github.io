@@ -271,7 +271,7 @@ p, li { color: #000000; font-family:'Open Sans', serif }
 .menu-light ul li a.btn-cta:visited {
     background-color: transparent;
     color: #222;
-    border-color:#0f2456
+    border-color:#222
 }
 
 .menu-light ul li a.btn-cta:hover,
@@ -326,22 +326,43 @@ a[href^=tel] { text-decoration: none; color:#fff}
 }
 
 /* menu links */
-.menu-transparent ul li a:link,  .menu-transparent ul li a:visited { color: #fff}
+.menu-transparent ul li a:link,  .menu-transparent ul li a:visited { color: #000000}
 .menu-transparent ul li a:hover, .menu-transparent ul li a:active  { color: #33adff}
+
+/* Privacy menu links */
+.privacy-page .menu-transparent ul li a:link,  
+.privacy-page .menu-transparent ul li a:visited { color: #000}
+.privacy-page .menu-transparent ul li a:hover,
+.privacy-page .menu-transparent ul li a:active  { color: #33adff 
 
 /* cta button */
 .menu-transparent ul li a.btn-cta:link,
 .menu-transparent ul li a.btn-cta:visited { 
-    background-color: #fff
-    color: #fff;
-    border-color:none;
+    background-color: #fff;
+    color: #000000;
+    border-color:none
+}
+
+/* Privacy page cta button */
+.privacy-page .menu-transparent ul li a.btn-cta:link,
+.privacy-page .menu-transparent ul li a.btn-cta:visited {
+    background-color: #fff;
+    color: #000;
+    border-color:#000;
+}
+
+.privacy-page .menu-transparent ul li a.btn-cta:hover,
+.privacy-page .menu-transparent ul li a.btn-cta:active {
+    background-color:none;
+    color:#33adff;
+    border-color:#33adff
 }
 
 .menu-transparent ul li a.btn-cta:hover,
 .menu-transparent ul li a.btn-cta:active { 
     background-color:none;
-    color: #fff;
-    border-color:#33adff
+    color: #33adff;
+    border-color:#000000
 }
 
 /* on mobiles only - various content */
@@ -356,6 +377,11 @@ a[href^=tel] { text-decoration: none; color:#fff}
 .menu-transparent .item-icon .bar1, 
 .menu-transparent .item-icon .bar2, 
 .menu-transparent .item-icon .bar3 { background-color: #fff }
+
+/* Privacy page colour of hamburger icon bars */
+.privacy-page .menu-transparent .item-icon .bar1,
+.privacy-page .menu-transparent .item-icon .bar2,
+.privacy-page .menu-transparent .item-icon .bar3 { background-color:#000 }
 
 /* phone number link */
 a[href^=tel] { text-decoration: none; color: #fff }
