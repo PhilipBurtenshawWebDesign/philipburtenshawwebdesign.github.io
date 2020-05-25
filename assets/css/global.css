@@ -292,7 +292,7 @@ p, li { color: #000000; font-family:'Open Sans', serif }
 /* colour of hamburger icon bars */
 .menu-light .item-icon .bar1, 
 .menu-light .item-icon .bar2, 
-.menu-light .item-icon .bar3 { background-color:#fff }	
+.menu-light .item-icon .bar3 { background-color:#000 }	
 
 /* phone number link */
 a[href^=tel] { text-decoration: none; color:#fff}
@@ -338,8 +338,8 @@ a[href^=tel] { text-decoration: none; color:#fff}
 /* cta button */
 .menu-transparent ul li a.btn-cta:link,
 .menu-transparent ul li a.btn-cta:visited { 
-    background-color: #fff;
-    color: #000000;
+    background-color: transparent;
+    color: #fff;
     border-color:none
 }
 
