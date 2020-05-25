@@ -283,7 +283,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 72px }
 /* colour of hamburger icon bars */
 .menu-light .item-icon .bar1, 
 .menu-light .item-icon .bar2, 
-.menu-light .item-icon .bar3 { background-color: #fff }	
+.menu-light .item-icon .bar3 { background-color: #d1274b }	
 
 /* phone number link */
 a[href^=tel] { text-decoration: none; color: #d1274b }
