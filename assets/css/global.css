@@ -49,7 +49,7 @@ p, li { color: #000000; font-family:'Open Sans', serif }
 .container-menu-desktop    a:first-child img,
 .container-menu-bar-mobile a:first-child img { width: 200px; height: 40px }
 
-/* website logo vertically cente#ff5000 in desktop menu and mobile menu bar  */
+/* website logo vertically center in desktop menu and mobile menu bar  */
 .container-menu-desktop    a:first-child,
 .container-menu-bar-mobile a:first-child { display: flex; flex-direction: row; align-items: center }
 
